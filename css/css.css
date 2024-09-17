@@ -1,0 +1,49 @@
+.contenedor{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 25px;
+    display:  grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 8fr 3fr;
+    grid-template-rows: 4fr 200px  2fr;
+}
+.contenedor>div{
+    background-color: chartreuse;
+}
+.contenedor .header{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+.contenedor .side1{
+    background-color: bisque;
+    grid-column: 1/2;
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 10px ;
+}
+.contenedor .side1 .ven1{
+    background-color: blue;
+}
+.contenedor .side1 .ven2{
+    background-color: blue;
+}
+.contenedor .side2{
+    background-color: bisque;
+    grid-column: 3/4;
+}
+.contenedor .contenido{
+     background-color: beige;
+     padding: 10px;
+     grid-column: 2/3;
+     display:  grid;
+     grid-gap: 20px;
+     grid-template-columns: 3fr 8fr 3fr;
+}
+.contenedor .contenido>div{
+    background-color: red;
+} 
+.contenedor .fotter{
+    background-color: greenyellow;
+    grid-column: 1/4;
+}
